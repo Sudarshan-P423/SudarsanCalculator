@@ -36,13 +36,13 @@ function calc()
 	b=str.slice(index);
 	//console.log(a+" : "+b);
 	if(op=='/')
-		out.value=(a/b).toFixed(5);
+		ui.value=(a/b).toFixed(5);
 	else if(op=='+')
-		out.value=(+a + +b).toFixed(1);
+		ui.value=(+a + +b).toFixed(1);
 	else if(op=='*')
-		out.value=a*b;
+		ui.value=a*b;
 	else if(op=='-')
-		out.value=(a-b).toFixed(1);
+		ui.value=(a-b).toFixed(1);
 	//console.log(+a + +b);
 }
 function del()
