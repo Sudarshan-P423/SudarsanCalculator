@@ -1,0 +1,68 @@
+/* css for calculator */
+#main{
+	background:black;
+	border-radius:10px;
+	height:400px;
+	width:250px;
+	box-shadow:0 0 10px black;
+	margin:auto;
+	color:white;
+	font-size:150%;
+}
+#but{
+	position:relative;
+	margin-left:15px;
+	top:50px;
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	gap: 20px 10px;
+}
+button{
+	font-size:20px;
+	border:none;
+	background:white;
+	width:40px;
+	height:30px;
+	border-radius:2px;
+}
+#but div{
+	box-shadow:0 0 10px #0c0966;
+	width:40px;
+	height:30px;
+	text-align:center;
+	background:white;
+}
+#but div:hover{
+	box-shadow:0 0 10px red;
+	background:blue;
+}
+button:hover{
+	background:blue;
+	color:white;
+}
+input{
+	border:none;
+	width:220px;
+	position:relative;
+	left:15px;
+	top:10px;
+	height:80px;
+	border-radius:10px 10px 0 0;
+	border-bottom:none;
+	outline:none;
+	font-size:150%;
+	margin-bottom:20px;
+	text-align:right;
+}
+output{
+	position:absolute;
+	background:white;
+	border-radius:0 0 10px 10px;
+	display:inline-block;
+	width:224px;
+	height:40px;
+	font-size:30px;
+	left:658px;
+	top:100px;
+	text-align:right;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" href="calc.css"/>
+	
+	<script src="calc.js"></script>
+</head>
+<body>
+			<output id='out'><pre> </pre></output>
+	<div id="main">
+				<div> <input type="text" id="ui" autofocus /> </div>
+			<div id="but">
+				<div><button id="ac" type='reset' onclick="del()">AC</button></div>
+				<div ><button id="de" onclick="del1()">DE</button></div>
+				<div ><button id="dot" onclick='ui.value+="."'>.</button></div>
+				<div ><button id="div" onclick='ui.value+="/"'>/</button></div>
+				<div ><button id="seven" onclick='ui.value+="7"'>7</button></div>
+				<div ><button id="eight" onclick='ui.value+="8"'>8</button></div>
+				<div ><button id="nine" onclick='ui.value+="9"'>9</button></div>
+				<div ><button id="mul" onclick='ui.value+="*"'>*</button></div>
+				<div ><button id="four" onclick='ui.value+="4"'>4</button></div>
+				<div ><button id="five" onclick='ui.value+="5"'>5</button></div>
+				<div ><button id="six" onclick='ui.value+="6"'>6</button></div>
+				<div ><button id="minus" onclick='ui.value+="-"'>-</button></div>
+				<div ><button id="one" onclick='ui.value+="1"'>1</button></div>
+				<div ><button id="two" onclick='ui.value+="2"'>2</button></div>
+				<div ><button id="three" onclick='ui.value+="3"'>3</button></div>
+				<div ><button id="plus" onclick='ui.value+="+"'>+</button></div>
+				<div ><button id="tzero" onclick='ui.value+="00"'>00</button></div>
+				<div ><button id="ozero" onclick='ui.value+="0"'>0</button></div>
+				<div><button onclick="calc()">=</button></div>
+			</div>
+			
+			
+	</div>
+
+</body>
