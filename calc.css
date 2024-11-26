@@ -47,22 +47,9 @@ input{
 	left:15px;
 	top:10px;
 	height:80px;
-	border-radius:10px 10px 0 0;
-	border-bottom:none;
+	border-radius:10px;
 	outline:none;
 	font-size:150%;
 	margin-bottom:20px;
-	text-align:right;
-}
-output{
-	position:absolute;
-	background:white;
-	border-radius:0 0 10px 10px;
-	display:inline-block;
-	width:224px;
-	height:40px;
-	font-size:30px;
-	left:658px;
-	top:100px;
 	text-align:right;
 }
